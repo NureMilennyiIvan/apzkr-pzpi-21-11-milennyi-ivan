@@ -58,6 +58,15 @@ export const AdminBaseForm: React.FC<FormProps> = ({ user, entityType }) => {
           alert(error);
         }
       }
+      else{
+        const data: any = {};
+        if (entityType === "Sheep"){
+          if (!formData.sex){
+            data.sex = true;
+            setFormData({ ...data });
+          }
+        }
+      }
     };
     fetchData();
   }, [trigger, entityId]);
@@ -73,7 +82,6 @@ export const AdminBaseForm: React.FC<FormProps> = ({ user, entityType }) => {
     setErrors({});
     try {
       const item = {...formData};
-      console.log(item)
       switch (entityType) {
         case "Shepherd":
         case "Storekeeper":
@@ -81,11 +89,32 @@ export const AdminBaseForm: React.FC<FormProps> = ({ user, entityType }) => {
           break;
         case "Sheep":
           item.birth_date = new Date(item.birth_date).getTime() / 1000;
+          item.weight = parseInt(item.weight);
+          item.breed_id = parseInt(item.breed_id);
+          item.sex = (item.sex == "true");
+          if (item.temperature_scanner_id == undefined){
+            item.temperature_scanner_id = null;
+          }
+          if (item.shepherd_id == undefined){
+            item.shepherd_id = null;
+          }
+          break;
+        case "Feed":
+          item.amount = parseInt(item.amount);
+          item.protein = parseInt(item.protein);
+          item.fat = parseInt(item.fat);
+          item.calories = parseInt(item.calories);
+          item.carbohydrates = parseInt(item.carbohydrates);
+          break;
+        case "Breed":
+          item.feed_id = parseInt(item.feed_id);
+          break;
+        case "TemperatureScanner":
+          item.temperature = parseInt(item.temperature);
           break;
         default:
           break;
       }
-
       if (entityId) {
         await services[entityType].update(item);
       } else {
@@ -101,7 +130,6 @@ export const AdminBaseForm: React.FC<FormProps> = ({ user, entityType }) => {
     // Валідація форми залежно від entityType
   const validateForm = (data: any): any => {
     const errors: any = {};
-
     switch (entityType) {
         case "Shepherd":
         case "Storekeeper":
@@ -128,7 +156,7 @@ export const AdminBaseForm: React.FC<FormProps> = ({ user, entityType }) => {
             if (!data.weight || isNaN(data.weight) || !(/^(0|[1-9]\d*)$/.test(data.weight))) {
                 errors.weight = "adminBaseForm.validationErrors.weightRequired";
             }
-            if (typeof data.sex !== "boolean") {
+            if (data.sex != "true" && data.sex != "false" && data.sex != true && data.sex != false) {
                 errors.sex = "adminBaseForm.validationErrors.sexRequired";
             }
             break;
@@ -264,7 +292,7 @@ export const AdminBaseForm: React.FC<FormProps> = ({ user, entityType }) => {
               <label className={styles.label}>{t("adminBaseForm.headers.sheepSex")}</label>
               <select
                 className={styles.input}
-                value={formData.sex || ""}
+                value={formData.sex || true}
                 onChange={(e) => handleElementChange(e, (value) => setFormData({ ...formData, sex: value }))}
               >
                 <option value="true">{t("adminBaseForm.headers.maleText")}</option>
@@ -419,4 +447,5 @@ export const AdminBaseForm: React.FC<FormProps> = ({ user, entityType }) => {
     </div>
   );
 };
+
 
