@@ -1,0 +1,277 @@
+{
+    "router": {
+      "switchButtonText": "Змінити мову",
+      "logoutButtonText": "Вийти"
+    },
+    "authorizationForm": {
+        "usernameHeader": "Ім'я користувача",
+        "passwordHeader": "Пароль",
+        "shepherdStatus": "Я пастух",
+        "storekeeperStatus": "Я кладівник",
+        "signInButtonText": "Увійти",
+        "errorUsernameHeader1": "Некорректне ім'я користувача",
+        "errorUsernameHeader2": "Не вдалось авторизуватись. Перевірте дані або спробуйте ще раз",
+        "errorPasswordHeader": "Введіть пароль",
+        "usernamePlaceholder": "Введіть ваше ім'я користувача",
+        "passwordPlaceholder": "Введіть ваш пароль"
+    },
+    "shepherdMainPage": {
+      "sheepButtonText": "Вівці",
+      "breedsButtonText": "Породи",
+      "feedsButtonText": "Корм"
+    },
+    "sheepList": {
+      "sheepHeader": "Вівця",
+      "breedHeader": "Порода",
+      "sexHeader": "Стать",
+      "femaleText": "Самка",
+      "maleText": "Самець",
+      "lastFeedingDateHeader": "Дата останнього годування",
+      "lastShearingDateHeader": "Дата останнього стриження",
+      "notFoundHeader": "Немає інформації про овець"
+    },
+    "breedsList": {
+      "feedHeader": "Корм",
+      "sheepCountHeader": "Кількість овець",
+      "infoHeader": "Інформація",
+      "notFoundHeader": "Немає інформації про породи"
+    },
+    "feedsList": {
+      "amountHeader": "Кількість",
+      "amountUnitsHeader": "кг",
+      "caloriesHeader": "Калорії",
+      "caloriesUnitsHeader": "ккал",
+      "fatsHeader": "Жири",
+      "proteinsHeader": "Білки",
+      "carbohydratesHeader": "Вуглеводи",
+      "breedHeader": "Порода",
+      "notAssignedHeader": "Не призначено",
+      "sheepCountHeader": "Кількість овець",
+      "notFoundHeader": "Немає інформації про корми"
+    },
+    "sheepMainPage": {
+      "sheepDetailsHeader": "Деталі про овець",
+      "feedingLogsHeader": "Записи годувань",
+      "shearingLogsHeader": "Записи стрижок"
+    },
+    "sheepDetailsList": {
+      "sheepHeader": "Вівця",
+      "breedHeader": "Порода",
+      "ageHeader": "Вік",
+      "ageUnitsHeader": "днів",
+      "sexHeader": "Стать",
+      "femaleText": "Самка",
+      "maleText": "Самець",
+      "temperatureHeader": "Температура",
+      "noDataHeader": "Немає даних",
+      "temperatureStatusHeader1": "Температура в нормі",
+      "temperatureStatusHeader2": "Температура ненормальна",
+      "temperatureStatusHeader3": "Немає сканера температури",
+      "weightHeader": "Вага",
+      "weightUnitsHeader": "кг",
+      "feedHeader": "Корм",
+      "availableFeedHeader": "Доступний корм",
+      "requiredFeedHeader": "Необхідна кількість корму",
+      "lastFeedingHeader": "Останнє годування",
+      "feedButtonText": "Відмітити годування",
+      "feedingStatusHeader1": "Не вистачає корму",
+      "feedingStatusHeader2": "Годування не потрібне",
+      "lastShearingHeader": "Останнє стриження",
+      "shearingInputPlaceholder": "Введіть кількість зістриженої вовни (кг)",
+      "shearButtonText": "Відмітити стриження",
+      "shearingStatusHeader": "Стриження не потрібне",
+      "serverErrorHeader": "Щось пішло не так. Спробуйте ще раз",
+      "shearingErrorHeader": "Кількість має бути числом і більше 0",
+      "breedInfoHeader": "Інформація про породу",
+      "notFoundHeader": "Немає інформації про овець"
+    },
+    "feedingLogsList": {
+      "logHeader": "Запис",
+      "sheepHeader": "Вівця",
+      "performerHeader": "Виконавець",
+      "noDataHeader": "Немає даних",
+      "feedAmountHeader": "Спожито корму",
+      "feedAmountUnitsHeader": "кг",
+      "dateHeader": "Дата",
+      "notFoundHeader": "Немає інформації про записи годувань"
+    },
+    "shearingLogsList": {
+      "logHeader": "Запис",
+      "sheepHeader": "Вівця",
+      "performerHeader": "Виконавець",
+      "noDataHeader": "Немає даних",
+      "feedAmountHeader": "Отримано вовни",
+      "feedAmountUnitsHeader": "кг",
+      "dateHeader": "Дата",
+      "notFoundHeader": "Немає інформації про записи стрижень"
+    },
+    "storekeeperMainPage": {
+      "feedBreedHeader": "Порода",
+      "feedAmountHeader": "Кількість",
+      "feedAmountUnitsHeader": "кг",
+      "feedSheepCountHeader": "Кількість овець",
+      "feedAddSupplyButtonText": "Додати поставку",
+      "notFoundHeader": "Немає інформації про корми"
+    },
+    "feedPage": {
+      "suppliesHeader": "Поставки",
+      "consumptionsHeader": "Споживання"
+    },
+    "feedSuppliesList": {
+      "supplyHeader": "Поставка",
+      "performerHeader": "Виконавець",
+      "noDataHeader": "Немає даних",
+      "feedAmountHeader": "Отримано корму",
+      "feedAmountUnitsHeader": "кг",
+      "dateHeader": "Дата",
+      "notFoundHeader": "Немає інформації про поставки корму"
+    },
+    "createFeedSupplyForm": {
+      "supplyAmountLabel": "Кількість корму в поставці",
+      "supplyButtonText": "Відмітити поставку",
+      "inputPlaceholder": "Введіть кількість отриманого корму (кг)",
+      "inputErrorHeader": "Кількість має бути числом і більше 0",
+      "serverErrorHeader": "Щось пішло не так. Спробуйте ще раз"
+    },
+    "adminMainPage": {
+      "shepeherdsHeader": "Вівчарі",
+      "storekeepersHeader": "Комірники",
+      "sheepHeader": "Вівці",
+      "temperatureScannersHeader": "Сканери температури",
+      "breedsHeader": "Породи",
+      "feedsHeader": "Корм",
+      "feedingLogsHeader": "Записи годуваннь",
+      "shearingLogsHeader": "Записи стрижок",
+      "feedSuppliesHeader": "Поставки корму"
+  },
+  "gridBase": {
+      "addButtonText": "Додати",
+      "editButtonText": "Редагувати",
+      "deleteButtonText": "Видалити",
+      "idHeader": "Id",
+      "chooseHeader": "Вибрано"
+  },
+  "breedsGrid": {
+      "nameHeader": "Назва",
+      "feedIdHeader": "Id корму",
+      "infoHeader": "Інформація",
+      "notFoundHeader": "Інформація про породи відсутня"
+  },
+  "feedingLogsGrid": {
+      "amountHeader": "Кількість",
+      "feedIdHeader": "Id корму",
+      "sheepIdHeader": "Id вівці",
+      "shepherdIdHeader": "Id вівчара",
+      "timestampHeader": "Часова мітка",
+      "notFoundHeader": "Інформація про записи годувань відсутня"
+  },
+  "feedsGrid": {
+      "nameHeader": "Назва",
+      "amountHeader": "Кількість",
+      "caloriesHeader": "Калорії",
+      "proteinHeader": "Білки",
+      "carbohydratesHeader": "Вуглеводи",
+      "fatHeader": "Жири",
+      "notFoundHeader": "Інформація про корм відсутня"
+  },
+  "feedSuppliesGrid": {
+      "amountHeader": "Кількість",
+      "feedIdHeader": "Id корму",
+      "storekeeperIdHeader": "Id комірника",
+      "timestampHeader": "Часова мітка",
+      "notFoundHeader": "Інформація про поставки корму відсутня"
+  },
+  "shearingLogsGrid": {
+      "woolAmountHeader": "Кількість вовни",
+      "sheepIdHeader": "Id вівці",
+      "shepherdIdHeader": "Id вівчара",
+      "timestampHeader": "Часова мітка",
+      "notFoundHeader": "Інформація про записи стрижок відсутня"
+  },
+  "sheepGrid": {
+      "breedIdHeader": "Id породи",
+      "shepherdIdHeader": "Id вівчара",
+      "sexHeader": "Стать",
+      "birthDateHeader": "Дата народження",
+      "weightHeader": "Вага",
+      "temperatureScannerIdHeader": "Id сканера температури",
+      "reassignShepherdButtonText": "Перепризначити вівчара",
+      "reassignTemperatureScannerButtonText": "Перепризначити сканер",
+      "notFoundHeader": "Інформація про овець відсутня"
+  },
+  "shepherdsGrid": {
+      "usernameHeader": "Логін",
+      "passwordHeader": "Пароль",
+      "nameHeader": "Ім'я",
+      "surnameHeader": "Прізвище",
+      "notFoundHeader": "Інформація про вівчарів відсутня"
+  },
+  "storkeepersGrid": {
+      "usernameHeader": "Логін",
+      "passwordHeader": "Пароль",
+      "nameHeader": "Ім'я",
+      "surnameHeader": "Прізвище",
+      "notFoundHeader": "Інформація про комірників відсутня"
+  },
+  "temeperatureScannersGrid": {
+      "passwordHeader": "Пароль",
+      "temperatureHeader": "Температура",
+      "notFoundHeader": "Інформація про сканери температури відсутня"
+  },
+  "adminBaseForm": {
+    "validationErrors": {
+      "employeeUsernameRequired": "Ім'я користувача працівника обов'язкове і повинно містити щонайменше 5 символів.",
+      "employeePasswordRequired": "Пароль працівника обов'язковий і повинен містити щонайменше 8 символів.",
+      "employeeNameRequired": "Ім'я працівника обов'язкове.",
+      "employeeSurnameRequired": "Прізвище працівника обов'язкове.",
+      "birthDateRequired": "Дата народження обов'язкова.",
+      "breedIdRequired": "Ідентифікатор породи обов'язковий і повинен бути числом.",
+      "weightRequired": "Вага обов'язкова і повинна бути числом.",
+      "sexRequired": "Стать обов'язкова і повинна бути логічним значенням.",
+      "feedNameRequired": "Назва корму обов'язкова і повинна містити щонайменше 5 символів.",
+      "amountRequired": "Кількість обов'язкова і повинна бути числом.",
+      "caloriesRequired": "Калорії обов'язкові і повинні бути числом.",
+      "fatRequired": "Жири обов'язкові і повинні бути числом.",
+      "proteinRequired": "Білки обов'язкові і повинні бути числом.",
+      "carbohydratesRequired": "Вуглеводи обов'язкові і повинні бути числом.",
+      "breedNameRequired": "Назва породи обов'язкова і повинна містити щонайменше 5 символів.",
+      "feedIdRequired": "Ідентифікатор корму обов'язковий і повинен бути числом.",
+      "infoRequired": "Інформація обов'язкова і повинна містити щонайменше 10 символів.",
+      "temperatureRequired": "Температура обов'язкова і повинна бути числом.",
+      "passwordRequired": "Пароль обов'язковий і повинен містити щонайменше 8 символів."
+    },
+    "headers": {
+      "employeeUsername": "Ім'я користувача",
+      "employeePassword": "Пароль",
+      "employeeName": "Ім'я",
+      "employeeSurname": "Прізвище",
+      "sheepBirthDate": "Дата народження",
+      "sheepBreedId": "Ідентифікатор породи",
+      "sheepWeight": "Вага",
+      "sheepSex": "Стать",
+      "maleText": "Самець",
+      "femaleText": "Самка",
+      "feedName": "Назва",
+      "feedAmount": "Кількість",
+      "feedCalories": "Калорії",
+      "feedFat": "Жири",
+      "feedProtein": "Білки",
+      "feedCarbohydrates": "Вуглеводи",
+      "breedName": "Назва",
+      "breedFeedId": "Ідентифікатор корму",
+      "breedInfoHeader": "Інформація",
+      "temperatureScannerTemperature": "Температура",
+      "temperatureScannerPassword": "Пароль"
+    },
+    "editButtonText": "Редагувати",
+    "createButtonText": "Створити"
+  },
+  "reassignFormForSheep": {
+    "sheepHeader": "Вівця #",
+    "shepherdsHeader": "Вівчарі",
+    "temperatureScannersHeader": "Сканери температури",
+    "scannerHeader": "Сканер #",
+    "dontAssignOption": "Не призначати",
+    "assignTextButton": "Призначити"
+  }
+}

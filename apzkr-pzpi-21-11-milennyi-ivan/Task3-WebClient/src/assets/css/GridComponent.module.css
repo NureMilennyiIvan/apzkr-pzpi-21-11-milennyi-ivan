@@ -1,0 +1,79 @@
+.container {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    min-height: 69vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.th, .td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tr:hover {
+    background-color: #f1f1f1;
+}
+
+.selected {
+    background-color: #d4edda;
+}
+
+.actionButtonsContainer {
+    display: flex;
+    flex: 1;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.actionButton {
+    height: fit-content;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 4px;
+    margin-top: auto;
+}
+
+.actionButton:hover {
+    background-color: #8b9dc3;
+}
+
+.disabledButton {
+    background-color: #ccc;
+    cursor: default;
+}
+
+.error {
+    color: red;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.attention {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #333;
+}

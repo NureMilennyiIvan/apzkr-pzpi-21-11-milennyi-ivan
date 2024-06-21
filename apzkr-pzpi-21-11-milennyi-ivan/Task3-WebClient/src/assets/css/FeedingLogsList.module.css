@@ -1,0 +1,41 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.cardHeader {
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.logId {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.cardBody p {
+    margin: 0;
+    color: #666;
+}
+
+.cardBody p strong {
+    color: #333;
+}

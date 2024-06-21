@@ -1,0 +1,278 @@
+{
+    "router": {
+      "switchButtonText": "Switch language",
+      "logoutButtonText": "Logout"
+    },
+    "authorizationForm": {
+        "usernameHeader": "Username",
+        "passwordHeader": "Password",
+        "shepherdStatus": "Shepherd",
+        "storekeeperStatus": "Storekeeper",
+        "signInButtonText": "Sign In",
+        "registrationButtonText": "Registration",
+        "errorUsernameHeader1": "Incorrect username",
+        "errorUsernameHeader2": "Authorization failed. Check the data or try again",
+        "errorPasswordHeader": "Provide password",
+        "usernamePlaceholder": "Enter username",
+        "passwordPlaceholder": "Enter password"
+    },
+    "shepherdMainPage":{
+      "sheepButtonText": "Sheep",
+      "breedsButtonText": "Breeds",
+      "feedsButtonText": "Feeds"
+    },
+    "sheepList":{
+      "sheepHeader": "Sheep",
+      "breedHeader": "Breed",
+      "sexHeader": "Sex",
+      "femaleText": "Female",
+      "maleText": "Male",
+      "lastFeedingDateHeader": "Last feeding date",
+      "lastShearingDateHeader": "Last shearing date",
+      "notFoundHeader": "There is no information about sheep"
+    },
+    "breedsList":{
+      "feedHeader": "Feed",
+      "sheepCountHeader": "Number of sheep",
+      "infoHeader": "Information",
+      "notFoundHeader": "There is no information about breeds"
+    },
+    "feedsList":{
+      "amountHeader": "Amount",
+      "amountUnitsHeader": "kg",
+      "caloriesHeader": "Calories",
+      "caloriesUnitsHeader": "kcal",
+      "fatsHeader": "Fats",
+      "proteinsHeader": "Proteins",
+      "carbohydratesHeader": "Carbohydrates",
+      "breedHeader": "Breed",
+      "notAssignedHeader": "Not assigned",
+      "sheepCountHeader": "Number of sheep",
+      "notFoundHeader": "There is no information about feeds"
+    },
+    "sheepMainPage": {
+      "sheepDetailsHeader": "Sheep details",
+      "feedingLogsHeader": "Feeding logs",
+      "shearingLogsHeader": "Shearing logs"
+    },
+    "sheepDetailsList":{
+      "sheepHeader": "Sheep",
+      "breedHeader": "Breed",
+      "ageHeader": "Age",
+      "ageUnitsHeader": "days",
+      "sexHeader": "Sex",
+      "femaleText": "Female",
+      "maleText": "Male",
+      "temperatureHeader": "Temperature",
+      "noDataHeader": "No data",
+      "temperatureStatusHeader1": "The temperature is normal",
+      "temperatureStatusHeader2": "The temperature is abnormal",
+      "temperatureStatusHeader3": "There is no temperature scanner",
+      "weightHeader": "Weight",
+      "weightUnitsHeader": "kg",
+      "feedHeader": "Feed",
+      "availableFeedHeader": "Available feed",
+      "requiredFeedHeader": "Required amount of feed",
+      "lastFeedingHeader": "Last feeding",
+      "feedButtonText": "Mark feeding",
+      "feedingStatusHeader1": "Not enough feed",
+      "feedingStatusHeader2": "Feeding is not required",
+      "lastShearingHeader": "Last shearing",
+      "shearingInputPlaceholder": "Enter the amount of wool sheared (kg)",
+      "shearButtonText": "Mark shearing",
+      "shearingStatusHeader": "Shearing is not required",
+      "serverErrorHeader": "Something went wrong. Try again",
+      "shearingErrorHeader": "Amount must be number and more than 0",
+      "breedInfoHeader": "Information about breed",
+      "notFoundHeader": "There is no information about sheep"
+    },
+    "feedingLogsList": {
+      "logHeader": "Log",
+      "sheepHeader": "Sheep",
+      "performerHeader": "Performer",
+      "noDataHeader": "No data",
+      "feedAmountHeader": "Consumed feed",
+      "feedAmountUnitsHeader": "kg",
+      "dateHeader": "Date",
+      "notFoundHeader": "There is no information about feeding logs"
+    },
+    "shearingLogsList": {
+      "logHeader": "Log",
+      "sheepHeader": "Sheep",
+      "performerHeader": "Performer",
+      "noDataHeader": "No data",
+      "feedAmountHeader": "Received wool",
+      "feedAmountUnitsHeader": "kg",
+      "dateHeader": "Date",
+      "notFoundHeader": "There is no information about shearing logs"
+    },
+    "storekeeperMainPage":{
+      "feedBreedHeader": "Breed",
+      "feedAmountHeader": "Amount",
+      "feedAmountUnitsHeader": "kg",
+      "feedSheepCountHeader": "Number of sheep",
+      "feedAddSupplyButtonText": "Add supply",
+      "notFoundHeader": "There is no information about feeds"
+    },
+    "feedPage":{
+      "suppliesHeader": "Supplies",
+      "consumptionsHeader": "Consumptions"
+    },
+    "feedSuppliesList": {
+      "supplyHeader": "Supply",
+      "performerHeader": "Performer",
+      "noDataHeader": "No data",
+      "feedAmountHeader": "Received feed",
+      "feedAmountUnitsHeader": "kg",
+      "dateHeader": "Date",
+      "notFoundHeader": "There is no information about feed supplies"
+    },
+    "createFeedSupplyForm":{
+      "supplyAmountLabel": "Feed amount in supply",
+      "supplyButtonText": "Mark supply",
+      "inputPlaceholder": "Enter the amount of recieved feed (kg)",
+      "inputErrorHeader": "Amount must be number and more than 0",
+      "serverErrorHeader": "Something went wrong. Try again"
+    },
+    "adminMainPage": {
+      "shepeherdsHeader": "Shepherds",
+      "storekeepersHeader": "Storekeepers",
+      "sheepHeader": "Sheep",
+      "temperatureScannersHeader": "Temperature scanners",
+      "breedsHeader": "Breeds",
+      "feedsHeader": "Feeds",
+      "feedingLogsHeader": "Feeding logs",
+      "shearingLogsHeader": "Shearing logs",
+      "feedSuppliesHeader": "Feed supplies"
+    },
+    "gridBase":{
+      "addButtonText": "Add",
+      "editButtonText": "Edit",
+      "deleteButtonText": "Delete",
+      "idHeader": "Id",
+      "chooseHeader": "Choosed"
+    },
+    "breedsGrid":{
+      "nameHeader": "Name",
+      "feedIdHeader": "Feed Id",
+      "infoHeader": "Information",
+      "notFoundHeader": "There is no information about breeds"
+    },
+    "feedingLogsGrid":{
+      "amountHeader": "Amount",
+      "feedIdHeader": "Feed Id",
+      "sheepIdHeader": "Sheep Id",
+      "shepherdIdHeader": "Shepherd Id",
+      "timestampHeader": "Timestamp",
+      "notFoundHeader": "There is no information about feeding logs"
+    },
+    "feedsGrid":{
+      "nameHeader": "Name",
+      "amountHeader": "Amount",
+      "caloriesHeader": "Calories",
+      "proteinHeader": "Protein",
+      "carbohydratesHeader": "Carbohydrates",
+      "fatHeader": "Fat",
+      "notFoundHeader": "There is no information about feeds"
+    },
+    "feedSuppliesGrid":{
+      "amountHeader": "Amount",
+      "feedIdHeader": "Feed Id",
+      "storekeeperIdHeader": "Storekeeper Id",
+      "timestampHeader": "Timestamp",
+      "notFoundHeader": "There is no information about feed supplies"
+    },
+    "shearingLogsGrid":{
+      "woolAmountHeader": "Wool amount",
+      "sheepIdHeader": "Sheep Id",
+      "shepherdIdHeader": "Shepherd Id",
+      "timestampHeader": "Timestamp",
+      "notFoundHeader": "There is no information about shearing logs"
+    },
+    "sheepGrid":{
+      "breedIdHeader": "Breed Id",
+      "shepherdIdHeader": "Shepherd Id",
+      "sexHeader": "Sex",
+      "birthDateHeader": "Birth date",
+      "weightHeader": "Weight",
+      "temperatureScannerIdHeader": "Temperature scanner Id",
+      "reassignShepherdButtonText": "Reassign shepherd",
+      "reassignTemperatureScannerButtonText": "Reassign scanner",
+      "notFoundHeader": "There is no information about sheep"
+    },
+    "shepherdsGrid":{
+      "usernameHeader": "Username",
+      "passwordHeader": "Password",
+      "nameHeader": "Name",
+      "surnameHeader": "Surname",
+      "notFoundHeader": "There is no information about shepherds"
+    },
+    "storkeepersGrid":{
+      "usernameHeader": "Username",
+      "passwordHeader": "Password",
+      "nameHeader": "Name",
+      "surnameHeader": "Surname",
+      "notFoundHeader": "There is no information about storkeepers"
+    },
+    "temeperatureScannersGrid":{
+      "passwordHeader": "Password",
+      "temperatureHeader": "Temperature",
+      "notFoundHeader": "There is no information about temperature scanners"
+    },
+    "adminBaseForm":{
+      "validationErrors": {
+        "employeeUsernameRequired": "Employee username is required and must be at least 5 characters long.",
+        "employeePasswordRequired": "Employee password is required and must be at least 8 characters long.",
+        "employeeNameRequired": "Employee name is required.",
+        "employeeSurnameRequired": "Employee surname is required.",
+        "birthDateRequired": "Birth date is required.",
+        "breedIdRequired": "Breed ID is required and must be a number.",
+        "weightRequired": "Weight is required and must be a number.",
+        "sexRequired": "Sex is required and must be a boolean value.",
+        "feedNameRequired": "Feed name is required and must be at least 5 characters long.",
+        "amountRequired": "Amount is required and must be a number.",
+        "caloriesRequired": "Calories are required and must be a number.",
+        "fatRequired": "Fat is required and must be a number.",
+        "proteinRequired": "Protein is required and must be a number.",
+        "carbohydratesRequired": "Carbohydrates are required and must be a number.",
+        "breedNameRequired": "Breed name is required and must be at least 5 characters long.",
+        "feedIdRequired": "Feed ID is required and must be a number.",
+        "infoRequired": "Info is required and must be at least 10 characters long.",
+        "temperatureRequired": "Temperature is required and must be a number.",
+        "passwordRequired": "Password is required and must be at least 8 characters long."
+      },
+      "headers":{
+        "employeeUsername": "Username",
+        "employeePassword": "Password",
+        "employeeName": "Name",
+        "employeeSurname": "Surname",
+        "sheepBirthDate": "Birth Date",
+        "sheepBreedId": "Breed Id",
+        "sheepWeight": "Weight",
+        "sheepSex": "Sex",
+        "maleText": "Male",
+        "femaleText": "Female",
+        "feedName": "Name",
+        "feedAmount": "Amount",
+        "feedCalories": "Calories",
+        "feedFat": "Fat",
+        "feedProtein": "Protein",
+        "feedCarbohydrates": "Carbohydrates",
+        "breedName": "Name",
+        "breedFeedId": "Feed Id",
+        "breedInfoHeader": "Information",
+        "temperatureScannerTemperature": "Temperature",
+        "temperatureScannerPassword": "Password"
+      },
+      "editButtonText": "Edit",
+      "createButtonText": "Create"
+    },
+    "reassignFormForSheep": {
+      "sheepHeader": "Sheep #",
+      "shepherdsHeader": "Shepherds",
+      "temperatureScannersHeader": "Temperature scanners",
+      "scannerHeader": "Scanner #",
+      "dontAssignOption": "Do not assign",
+      "assignTextButton": "Assign"
+    }
+}
