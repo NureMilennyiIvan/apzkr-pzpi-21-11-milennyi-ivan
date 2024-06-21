@@ -17,7 +17,7 @@ apzkr-pzpi-21-11-milennyi-ivan/Task3-WebClient/yarn-debug.log*
 apzkr-pzpi-21-11-milennyi-ivan/Task3-WebClient/yarn-error.log*
 apzkr-pzpi-21-11-milennyi-ivan/Task3-WebClient/pnpm-debug.log*
 apzkr-pzpi-21-11-milennyi-ivan/Task3-WebClient/lerna-debug.log*
-apzkr-pzpi-21-11-milennyi-ivan/Task3-WebClient/node_modules
+#apzkr-pzpi-21-11-milennyi-ivan/Task3-WebClient/node_modules
 apzkr-pzpi-21-11-milennyi-ivan/Task3-WebClient/dist
 apzkr-pzpi-21-11-milennyi-ivan/Task3-WebClient/dist-ssr
 apzkr-pzpi-21-11-milennyi-ivan/Task3-WebClient/*.local
@@ -31,4 +31,4 @@ apzkr-pzpi-21-11-milennyi-ivan/Task3-WebClient/*.njsproj
 apzkr-pzpi-21-11-milennyi-ivan/Task3-WebClient/*.sln
 apzkr-pzpi-21-11-milennyi-ivan/Task3-WebClient/*.sw?
 apzkr-pzpi-21-11-milennyi-ivan/Task3-WebClient/.vscode/
-apzkr-pzpi-21-11-milennyi-ivan/Task3-WebClient/package-lock.json
+#apzkr-pzpi-21-11-milennyi-ivan/Task3-WebClient/package-lock.json
